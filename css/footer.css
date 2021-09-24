@@ -1,0 +1,68 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+footer{
+	position: relative;
+	width: 100%;
+	margin-top: 10px 0 0 0 ;
+	margin-bottom: 0px;
+	bottom: 0;
+	overflow: hidden;
+}
+.footer {
+
+	bottom: 0;
+	background-color: #757575;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	width: 100%;
+	height: 80px;
+	padding: 20px;
+}
+.footer .footer-center{
+
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+}
+
+.footer .footer-company-name{
+	
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 800;
+	margin: 10px 10px 10px 10px;
+	
+}
+ 
+ 
+.footer .footer-center{
+
+	width: 100%;
+	align-items: center;
+
+	
+}
+
+ 
+@media (max-width: 720px) {
+ 
+	.footer{
+		font: bold 14px sans-serif;
+	
+	}
+
+	.footer .footer-center{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}

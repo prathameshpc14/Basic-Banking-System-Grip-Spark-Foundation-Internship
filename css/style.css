@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif, 'arial';
+}
+section{
+	margin: 80px 0px 0px 0px;
+	background-image: url("bg.jpg");
+	background-color: #00000018;
+	height: 800px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.container{
+	padding-top: 100px;
+	height: 400px;
+	border-radius: 40px;
+	align-items: center;
+}
+.bank-name h2{
+	padding-top: 200px;
+	font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 800;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+	text-shadow: black;
+}
+.bank-name h2 span{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 800;
+	color: #ffa601;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif, 'arial';
+}
+p{
+	margin: 20px;
+	font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+p span{
+	margin: 20px;
+	font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffa601;
+    text-align: center;
+}
+/*Button */
+.main button{
+    position: relative;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+    margin: 10px;
+ 	color: black;
+  	border: 1px solid #ffa601;
+  	border-radius: 10px;
+  	padding:10px;
+}
+.main button:hover{
+	background-color: #ffa601;
+	color: rgb(0, 0, 0);
+	transition: .5s;
+	cursor: pointer;
+}
+/*end Button */

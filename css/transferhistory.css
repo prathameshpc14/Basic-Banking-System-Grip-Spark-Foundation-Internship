@@ -1,0 +1,18 @@
+.container{
+      margin-top:120px;
+            }
+.main button{
+                position: relative;
+                margin: 20px;
+                left: 20%;
+                color: black;
+                border: 1px solid #ffa601;
+                border-radius: 10px;
+                padding:10px;
+}
+.main button:hover{
+                background-color: #ffa601;
+                color: rgb(0, 0, 0);
+                transition: .5s;
+                cursor: pointer;
+}
