@@ -25,6 +25,7 @@ section{
 }
 .bank-name h2{
 	padding-top: 200px;
+	text-transform: uppercase;
 	font-family: 'Poppins', sans-serif, 'arial';
     font-weight: 800;
     font-size: 35px;

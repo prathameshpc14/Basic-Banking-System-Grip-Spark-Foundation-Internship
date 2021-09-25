@@ -11,6 +11,7 @@
     text-align: center;
     background-color: #0000002c;
     padding: 10px;
+    text-transform: uppercase;
 }
 table {                 
         margin: 20px 20px 20px 20px;
@@ -35,14 +36,14 @@ table {
         padding: 5px;
     }
     table{
-        margin: 10px 0px 10px 0px;
+        margin: 10px 5px 10px 5px;
         font-size: 15px;
         text-align: center;
     }
 }
 @media (max-width: 400px) {
     .container-customer{
-        margin: 100px 0px 5px 0px;
+        margin: 100px 5px 5px 5px;
         padding: 5px;
     }
     table{
@@ -80,17 +81,4 @@ td button:hover{
 	transition: .5s;
 	cursor: pointer;
 }
-.main button{
-    position: relative;
-    margin: 10px;
- 	color: black;
-  	border: 1px solid #ffa601;
-  	border-radius: 10px;
-  	padding:10px;
-}
-.main button:hover{
-	background-color: #ffa601;
-	color: rgb(0, 0, 0);
-	transition: .5s;
-	cursor: pointer;
-}
+

@@ -33,7 +33,7 @@
          <ul>
             <li><a href="index.html">Home</a></li>
             
-            <li><a href="https://www.linkedin.com/in/prathamesh-chougule-49b6b4218/">About</a></li>
+            <li><a href="aboutme.html">About</a></li>
 
             <li><a href="contactus.html">Contact US</a></li>        
          </ul>

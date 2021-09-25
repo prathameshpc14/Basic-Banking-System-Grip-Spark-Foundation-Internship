@@ -33,7 +33,7 @@
          <ul>
             <li><a href="index.html">Home</a></li>
  
-            <li><a href="https://www.linkedin.com/in/prathamesh-chougule-49b6b4218/">About</a></li>
+            <li><a href="aboutme.html">About</a></li>
 
 			<li><a href="contactus.html">Contact US</a></li>
          </ul>
@@ -160,9 +160,11 @@
         </table>
     </div>
     <br>
-    
+    <div class="title">
+    <h3>Transfer Money</h3>
+    </div>
     <div class=container-transfer>
-        <h3>Transfer Money</h3>
+        <div class="transferto">
             <label>Transfer To:</label>
                     <select name="to" class="form-control" required>
                         <option value="" disabled selected>Select Reciver  ..</option>
@@ -198,12 +200,14 @@
                             } 
                         ?>
                     </select>
-                    <br><br>
-            <label>Amount:</label>
+                </div>
+            <div class="amount">        
+                <label>Amount:</label>
                 <input type="number" value="Enter Amount" class="form-control" name="amount" required>   
                 <br><br>
                 <button class="btn btn-primary" name="submit" type="submit" id="btn">Transfer</button>
-        </div>
+            </div>
+    </div>    
 </form>
 <!--end Main-->
  <!--footer-->
